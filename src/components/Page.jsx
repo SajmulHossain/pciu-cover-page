@@ -140,7 +140,7 @@ const Page = () => {
 
                   <div className="w-full">
                     <h3 className="font-bold text-center bg-purple-700 text-white pt-2 pb-6">
-                      Submitted To
+                      Submitted By
                     </h3>
 
                     <div className="mt-4 space-y-1">
