@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+  th, td {
+    @apply border-2;
+  }
+
+  th, td {
+    @apply w-1/2 p-2 -mt-2;
+  }
+
+  td {
+    @apply font-semibold;
+  }
+
+  th {
+    @apply bg-violet-700 text-white;
+  }
+
+  tr {
+    @apply border-y-4 border-white;
+  }
+
+  tr:nth-child(2n) {
+    @apply bg-violet-400;
+  }
+  tr:nth-child(2n + 1) {
+    @apply bg-violet-300;
+  }
+} */
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    @apply bg-violet-700;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-violet-400;
+}
